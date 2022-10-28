@@ -26,6 +26,24 @@ Non-cryptograhic hashes:
 
 
 
+<details>
+<summary>Show all the modules that "aptos_hash" depends on directly or indirectly</summary>
+
+
+![](img/aptos_hash_forward_dep.svg)
+
+
+</details>
+
+<details>
+<summary>Show all the modules that depend on "aptos_hash" directly or indirectly</summary>
+
+
+![](img/aptos_hash_backward_dep.svg)
+
+
+</details>
+
 <a name="0x1_aptos_hash_sip_hash"></a>
 
 ## Function `sip_hash`
@@ -44,6 +62,24 @@ Non-cryptograhic hashes:
 <pre><code><b>native</b> <b>public</b> <b>fun</b> <a href="hash.md#0x1_aptos_hash_sip_hash">sip_hash</a>(bytes: <a href="../../move-stdlib/doc/vector.md#0x1_vector">vector</a>&lt;u8&gt;): u64;
 </code></pre>
 
+
+
+</details>
+
+<details>
+<summary>Show all the functions that "sip_hash" calls</summary>
+
+
+![](img/aptos_hash_sip_hash_forward_call_graph.svg)
+
+
+</details>
+
+<details>
+<summary>Show all the functions that call "sip_hash"</summary>
+
+
+![](img/aptos_hash_sip_hash_backward_call_graph.svg)
 
 
 </details>
@@ -74,6 +110,24 @@ Non-cryptograhic hashes:
 
 </details>
 
+<details>
+<summary>Show all the functions that "sip_hash_from_value" calls</summary>
+
+
+![](img/aptos_hash_sip_hash_from_value_forward_call_graph.svg)
+
+
+</details>
+
+<details>
+<summary>Show all the functions that call "sip_hash_from_value"</summary>
+
+
+![](img/aptos_hash_sip_hash_from_value_backward_call_graph.svg)
+
+
+</details>
+
 <a name="0x1_aptos_hash_keccak256"></a>
 
 ## Function `keccak256`
@@ -92,6 +146,24 @@ Non-cryptograhic hashes:
 <pre><code><b>native</b> <b>public</b> <b>fun</b> <a href="hash.md#0x1_aptos_hash_keccak256">keccak256</a>(bytes: <a href="../../move-stdlib/doc/vector.md#0x1_vector">vector</a>&lt;u8&gt;): <a href="../../move-stdlib/doc/vector.md#0x1_vector">vector</a>&lt;u8&gt;;
 </code></pre>
 
+
+
+</details>
+
+<details>
+<summary>Show all the functions that "keccak256" calls</summary>
+
+
+![](img/aptos_hash_keccak256_forward_call_graph.svg)
+
+
+</details>
+
+<details>
+<summary>Show all the functions that call "keccak256"</summary>
+
+
+![](img/aptos_hash_keccak256_backward_call_graph.svg)
 
 
 </details>

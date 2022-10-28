@@ -21,6 +21,24 @@
 
 
 
+<details>
+<summary>Show all the modules that "type_info" depends on directly or indirectly</summary>
+
+
+![](img/type_info_forward_dep.svg)
+
+
+</details>
+
+<details>
+<summary>Show all the modules that depend on "type_info" directly or indirectly</summary>
+
+
+![](img/type_info_backward_dep.svg)
+
+
+</details>
+
 <a name="0x1_type_info_TypeInfo"></a>
 
 ## Struct `TypeInfo`
@@ -84,6 +102,24 @@
 
 </details>
 
+<details>
+<summary>Show all the functions that "account_address" calls</summary>
+
+
+![](img/type_info_account_address_forward_call_graph.svg)
+
+
+</details>
+
+<details>
+<summary>Show all the functions that call "account_address"</summary>
+
+
+![](img/type_info_account_address_backward_call_graph.svg)
+
+
+</details>
+
 <a name="0x1_type_info_module_name"></a>
 
 ## Function `module_name`
@@ -104,6 +140,24 @@
 }
 </code></pre>
 
+
+
+</details>
+
+<details>
+<summary>Show all the functions that "module_name" calls</summary>
+
+
+![](img/type_info_module_name_forward_call_graph.svg)
+
+
+</details>
+
+<details>
+<summary>Show all the functions that call "module_name"</summary>
+
+
+![](img/type_info_module_name_backward_call_graph.svg)
 
 
 </details>
@@ -132,6 +186,24 @@
 
 </details>
 
+<details>
+<summary>Show all the functions that "struct_name" calls</summary>
+
+
+![](img/type_info_struct_name_forward_call_graph.svg)
+
+
+</details>
+
+<details>
+<summary>Show all the functions that call "struct_name"</summary>
+
+
+![](img/type_info_struct_name_backward_call_graph.svg)
+
+
+</details>
+
 <a name="0x1_type_info_type_of"></a>
 
 ## Function `type_of`
@@ -154,6 +226,24 @@
 
 </details>
 
+<details>
+<summary>Show all the functions that "type_of" calls</summary>
+
+
+![](img/type_info_type_of_forward_call_graph.svg)
+
+
+</details>
+
+<details>
+<summary>Show all the functions that call "type_of"</summary>
+
+
+![](img/type_info_type_of_backward_call_graph.svg)
+
+
+</details>
+
 <a name="0x1_type_info_type_name"></a>
 
 ## Function `type_name`
@@ -172,6 +262,24 @@
 <pre><code><b>public</b> <b>native</b> <b>fun</b> <a href="type_info.md#0x1_type_info_type_name">type_name</a>&lt;T&gt;(): <a href="../../move-stdlib/doc/string.md#0x1_string_String">string::String</a>;
 </code></pre>
 
+
+
+</details>
+
+<details>
+<summary>Show all the functions that "type_name" calls</summary>
+
+
+![](img/type_info_type_name_forward_call_graph.svg)
+
+
+</details>
+
+<details>
+<summary>Show all the functions that call "type_name"</summary>
+
+
+![](img/type_info_type_name_backward_call_graph.svg)
 
 
 </details>

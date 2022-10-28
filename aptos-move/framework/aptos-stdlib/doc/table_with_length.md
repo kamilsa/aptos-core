@@ -27,6 +27,24 @@ Extends Table and provides functions such as length and the ability to be destro
 
 
 
+<details>
+<summary>Show all the modules that "table_with_length" depends on directly or indirectly</summary>
+
+
+![](img/table_with_length_forward_dep.svg)
+
+
+</details>
+
+<details>
+<summary>Show all the modules that depend on "table_with_length" directly or indirectly</summary>
+
+
+![](img/table_with_length_backward_dep.svg)
+
+
+</details>
+
 <a name="0x1_table_with_length_TableWithLength"></a>
 
 ## Struct `TableWithLength`
@@ -121,6 +139,24 @@ Create a new Table.
 
 </details>
 
+<details>
+<summary>Show all the functions that "new" calls</summary>
+
+
+![](img/table_with_length_new_forward_call_graph.svg)
+
+
+</details>
+
+<details>
+<summary>Show all the functions that call "new"</summary>
+
+
+![](img/table_with_length_new_backward_call_graph.svg)
+
+
+</details>
+
 <a name="0x1_table_with_length_destroy_empty"></a>
 
 ## Function `destroy_empty`
@@ -144,6 +180,24 @@ Destroy a table. The table must be empty to succeed.
 }
 </code></pre>
 
+
+
+</details>
+
+<details>
+<summary>Show all the functions that "destroy_empty" calls</summary>
+
+
+![](img/table_with_length_destroy_empty_forward_call_graph.svg)
+
+
+</details>
+
+<details>
+<summary>Show all the functions that call "destroy_empty"</summary>
+
+
+![](img/table_with_length_destroy_empty_backward_call_graph.svg)
 
 
 </details>
@@ -176,6 +230,24 @@ table, and cannot be discovered from it.
 
 </details>
 
+<details>
+<summary>Show all the functions that "add" calls</summary>
+
+
+![](img/table_with_length_add_forward_call_graph.svg)
+
+
+</details>
+
+<details>
+<summary>Show all the functions that call "add"</summary>
+
+
+![](img/table_with_length_add_backward_call_graph.svg)
+
+
+</details>
+
 <a name="0x1_table_with_length_borrow"></a>
 
 ## Function `borrow`
@@ -198,6 +270,24 @@ Aborts if there is no entry for <code>key</code>.
 }
 </code></pre>
 
+
+
+</details>
+
+<details>
+<summary>Show all the functions that "borrow" calls</summary>
+
+
+![](img/table_with_length_borrow_forward_call_graph.svg)
+
+
+</details>
+
+<details>
+<summary>Show all the functions that call "borrow"</summary>
+
+
+![](img/table_with_length_borrow_backward_call_graph.svg)
 
 
 </details>
@@ -228,6 +318,24 @@ Aborts if there is no entry for <code>key</code>.
 
 </details>
 
+<details>
+<summary>Show all the functions that "borrow_mut" calls</summary>
+
+
+![](img/table_with_length_borrow_mut_forward_call_graph.svg)
+
+
+</details>
+
+<details>
+<summary>Show all the functions that call "borrow_mut"</summary>
+
+
+![](img/table_with_length_borrow_mut_backward_call_graph.svg)
+
+
+</details>
+
 <a name="0x1_table_with_length_length"></a>
 
 ## Function `length`
@@ -253,6 +361,24 @@ Returns the length of the table, i.e. the number of entries.
 
 </details>
 
+<details>
+<summary>Show all the functions that "length" calls</summary>
+
+
+![](img/table_with_length_length_forward_call_graph.svg)
+
+
+</details>
+
+<details>
+<summary>Show all the functions that call "length"</summary>
+
+
+![](img/table_with_length_length_backward_call_graph.svg)
+
+
+</details>
+
 <a name="0x1_table_with_length_empty"></a>
 
 ## Function `empty`
@@ -274,6 +400,24 @@ Returns true if this table is empty.
 }
 </code></pre>
 
+
+
+</details>
+
+<details>
+<summary>Show all the functions that "empty" calls</summary>
+
+
+![](img/table_with_length_empty_forward_call_graph.svg)
+
+
+</details>
+
+<details>
+<summary>Show all the functions that call "empty"</summary>
+
+
+![](img/table_with_length_empty_backward_call_graph.svg)
 
 
 </details>
@@ -310,6 +454,24 @@ Insert the pair (<code>key</code>, <code>default</code>) first if there is no en
 
 </details>
 
+<details>
+<summary>Show all the functions that "borrow_mut_with_default" calls</summary>
+
+
+![](img/table_with_length_borrow_mut_with_default_forward_call_graph.svg)
+
+
+</details>
+
+<details>
+<summary>Show all the functions that call "borrow_mut_with_default"</summary>
+
+
+![](img/table_with_length_borrow_mut_with_default_backward_call_graph.svg)
+
+
+</details>
+
 <a name="0x1_table_with_length_upsert"></a>
 
 ## Function `upsert`
@@ -337,6 +499,24 @@ update the value of the entry for <code>key</code> to <code>value</code> otherwi
 }
 </code></pre>
 
+
+
+</details>
+
+<details>
+<summary>Show all the functions that "upsert" calls</summary>
+
+
+![](img/table_with_length_upsert_forward_call_graph.svg)
+
+
+</details>
+
+<details>
+<summary>Show all the functions that call "upsert"</summary>
+
+
+![](img/table_with_length_upsert_backward_call_graph.svg)
 
 
 </details>
@@ -369,6 +549,24 @@ Aborts if there is no entry for <code>key</code>.
 
 </details>
 
+<details>
+<summary>Show all the functions that "remove" calls</summary>
+
+
+![](img/table_with_length_remove_forward_call_graph.svg)
+
+
+</details>
+
+<details>
+<summary>Show all the functions that call "remove"</summary>
+
+
+![](img/table_with_length_remove_backward_call_graph.svg)
+
+
+</details>
+
 <a name="0x1_table_with_length_contains"></a>
 
 ## Function `contains`
@@ -390,6 +588,24 @@ Returns true iff <code><a href="table.md#0x1_table">table</a></code> contains an
 }
 </code></pre>
 
+
+
+</details>
+
+<details>
+<summary>Show all the functions that "contains" calls</summary>
+
+
+![](img/table_with_length_contains_forward_call_graph.svg)
+
+
+</details>
+
+<details>
+<summary>Show all the functions that call "contains"</summary>
+
+
+![](img/table_with_length_contains_backward_call_graph.svg)
 
 
 </details>

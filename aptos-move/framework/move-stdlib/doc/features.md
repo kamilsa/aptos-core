@@ -26,6 +26,24 @@ the Move stdlib, the Aptos stdlib, and the Aptos framework.
 
 
 
+<details>
+<summary>Show all the modules that "features" depends on directly or indirectly</summary>
+
+
+![](img/features_forward_dep.svg)
+
+
+</details>
+
+<details>
+<summary>Show all the modules that depend on "features" directly or indirectly</summary>
+
+
+![](img/features_backward_dep.svg)
+
+
+</details>
+
 <a name="0x1_features_Features"></a>
 
 ## Resource `Features`
@@ -117,6 +135,24 @@ Lifetime: ephemeral
 
 </details>
 
+<details>
+<summary>Show all the functions that "code_dependency_check_enabled" calls</summary>
+
+
+![](img/features_code_dependency_check_enabled_forward_call_graph.svg)
+
+
+</details>
+
+<details>
+<summary>Show all the functions that call "code_dependency_check_enabled"</summary>
+
+
+![](img/features_code_dependency_check_enabled_backward_call_graph.svg)
+
+
+</details>
+
 <a name="0x1_features_treat_friend_as_private"></a>
 
 ## Function `treat_friend_as_private`
@@ -137,6 +173,24 @@ Lifetime: ephemeral
 }
 </code></pre>
 
+
+
+</details>
+
+<details>
+<summary>Show all the functions that "treat_friend_as_private" calls</summary>
+
+
+![](img/features_treat_friend_as_private_forward_call_graph.svg)
+
+
+</details>
+
+<details>
+<summary>Show all the functions that call "treat_friend_as_private"</summary>
+
+
+![](img/features_treat_friend_as_private_backward_call_graph.svg)
 
 
 </details>
@@ -183,6 +237,24 @@ Function to enable and disable features. Can only be called by a signer of @std.
 
 </details>
 
+<details>
+<summary>Show all the functions that "change_feature_flags" calls</summary>
+
+
+![](img/features_change_feature_flags_forward_call_graph.svg)
+
+
+</details>
+
+<details>
+<summary>Show all the functions that call "change_feature_flags"</summary>
+
+
+![](img/features_change_feature_flags_backward_call_graph.svg)
+
+
+</details>
+
 <a name="0x1_features_is_enabled"></a>
 
 ## Function `is_enabled`
@@ -205,6 +277,24 @@ Check whether the feature is enabled.
 }
 </code></pre>
 
+
+
+</details>
+
+<details>
+<summary>Show all the functions that "is_enabled" calls</summary>
+
+
+![](img/features_is_enabled_forward_call_graph.svg)
+
+
+</details>
+
+<details>
+<summary>Show all the functions that call "is_enabled"</summary>
+
+
+![](img/features_is_enabled_backward_call_graph.svg)
 
 
 </details>
@@ -243,6 +333,24 @@ Helper to include or exclude a feature flag.
 
 </details>
 
+<details>
+<summary>Show all the functions that "set" calls</summary>
+
+
+![](img/features_set_forward_call_graph.svg)
+
+
+</details>
+
+<details>
+<summary>Show all the functions that call "set"</summary>
+
+
+![](img/features_set_backward_call_graph.svg)
+
+
+</details>
+
 <a name="0x1_features_contains"></a>
 
 ## Function `contains`
@@ -266,6 +374,24 @@ Helper to check whether a feature flag is enabled.
 }
 </code></pre>
 
+
+
+</details>
+
+<details>
+<summary>Show all the functions that "contains" calls</summary>
+
+
+![](img/features_contains_forward_call_graph.svg)
+
+
+</details>
+
+<details>
+<summary>Show all the functions that call "contains"</summary>
+
+
+![](img/features_contains_backward_call_graph.svg)
 
 
 </details>

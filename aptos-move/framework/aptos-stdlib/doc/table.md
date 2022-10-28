@@ -45,6 +45,24 @@ struct itself, while the operations are implemented as native functions. No trav
 
 
 
+<details>
+<summary>Show all the modules that "table" depends on directly or indirectly</summary>
+
+
+![](img/table_forward_dep.svg)
+
+
+</details>
+
+<details>
+<summary>Show all the modules that depend on "table" directly or indirectly</summary>
+
+
+![](img/table_backward_dep.svg)
+
+
+</details>
+
 <a name="0x1_table_Table"></a>
 
 ## Struct `Table`
@@ -128,6 +146,24 @@ Create a new Table.
 
 </details>
 
+<details>
+<summary>Show all the functions that "new" calls</summary>
+
+
+![](img/table_new_forward_call_graph.svg)
+
+
+</details>
+
+<details>
+<summary>Show all the functions that call "new"</summary>
+
+
+![](img/table_new_backward_call_graph.svg)
+
+
+</details>
+
 <a name="0x1_table_add"></a>
 
 ## Function `add`
@@ -151,6 +187,24 @@ table, and cannot be discovered from it.
 }
 </code></pre>
 
+
+
+</details>
+
+<details>
+<summary>Show all the functions that "add" calls</summary>
+
+
+![](img/table_add_forward_call_graph.svg)
+
+
+</details>
+
+<details>
+<summary>Show all the functions that call "add"</summary>
+
+
+![](img/table_add_backward_call_graph.svg)
 
 
 </details>
@@ -181,6 +235,24 @@ Aborts if there is no entry for <code>key</code>.
 
 </details>
 
+<details>
+<summary>Show all the functions that "borrow" calls</summary>
+
+
+![](img/table_borrow_forward_call_graph.svg)
+
+
+</details>
+
+<details>
+<summary>Show all the functions that call "borrow"</summary>
+
+
+![](img/table_borrow_backward_call_graph.svg)
+
+
+</details>
+
 <a name="0x1_table_borrow_mut"></a>
 
 ## Function `borrow_mut`
@@ -203,6 +275,24 @@ Aborts if there is no entry for <code>key</code>.
 }
 </code></pre>
 
+
+
+</details>
+
+<details>
+<summary>Show all the functions that "borrow_mut" calls</summary>
+
+
+![](img/table_borrow_mut_forward_call_graph.svg)
+
+
+</details>
+
+<details>
+<summary>Show all the functions that call "borrow_mut"</summary>
+
+
+![](img/table_borrow_mut_backward_call_graph.svg)
 
 
 </details>
@@ -232,6 +322,24 @@ Insert the pair (<code>key</code>, <code>default</code>) first if there is no en
 }
 </code></pre>
 
+
+
+</details>
+
+<details>
+<summary>Show all the functions that "borrow_mut_with_default" calls</summary>
+
+
+![](img/table_borrow_mut_with_default_forward_call_graph.svg)
+
+
+</details>
+
+<details>
+<summary>Show all the functions that call "borrow_mut_with_default"</summary>
+
+
+![](img/table_borrow_mut_with_default_backward_call_graph.svg)
 
 
 </details>
@@ -267,6 +375,24 @@ update the value of the entry for <code>key</code> to <code>value</code> otherwi
 
 </details>
 
+<details>
+<summary>Show all the functions that "upsert" calls</summary>
+
+
+![](img/table_upsert_forward_call_graph.svg)
+
+
+</details>
+
+<details>
+<summary>Show all the functions that call "upsert"</summary>
+
+
+![](img/table_upsert_backward_call_graph.svg)
+
+
+</details>
+
 <a name="0x1_table_remove"></a>
 
 ## Function `remove`
@@ -290,6 +416,24 @@ Aborts if there is no entry for <code>key</code>.
 }
 </code></pre>
 
+
+
+</details>
+
+<details>
+<summary>Show all the functions that "remove" calls</summary>
+
+
+![](img/table_remove_forward_call_graph.svg)
+
+
+</details>
+
+<details>
+<summary>Show all the functions that call "remove"</summary>
+
+
+![](img/table_remove_backward_call_graph.svg)
 
 
 </details>
@@ -319,6 +463,24 @@ Returns true iff <code><a href="table.md#0x1_table">table</a></code> contains an
 
 </details>
 
+<details>
+<summary>Show all the functions that "contains" calls</summary>
+
+
+![](img/table_contains_forward_call_graph.svg)
+
+
+</details>
+
+<details>
+<summary>Show all the functions that call "contains"</summary>
+
+
+![](img/table_contains_backward_call_graph.svg)
+
+
+</details>
+
 <a name="0x1_table_destroy"></a>
 
 ## Function `destroy`
@@ -340,6 +502,24 @@ Returns true iff <code><a href="table.md#0x1_table">table</a></code> contains an
 }
 </code></pre>
 
+
+
+</details>
+
+<details>
+<summary>Show all the functions that "destroy" calls</summary>
+
+
+![](img/table_destroy_forward_call_graph.svg)
+
+
+</details>
+
+<details>
+<summary>Show all the functions that call "destroy"</summary>
+
+
+![](img/table_destroy_backward_call_graph.svg)
 
 
 </details>
@@ -366,6 +546,24 @@ Returns true iff <code><a href="table.md#0x1_table">table</a></code> contains an
 
 </details>
 
+<details>
+<summary>Show all the functions that "new_table_handle" calls</summary>
+
+
+![](img/table_new_table_handle_forward_call_graph.svg)
+
+
+</details>
+
+<details>
+<summary>Show all the functions that call "new_table_handle"</summary>
+
+
+![](img/table_new_table_handle_backward_call_graph.svg)
+
+
+</details>
+
 <a name="0x1_table_add_box"></a>
 
 ## Function `add_box`
@@ -384,6 +582,24 @@ Returns true iff <code><a href="table.md#0x1_table">table</a></code> contains an
 <pre><code><b>native</b> <b>fun</b> <a href="table.md#0x1_table_add_box">add_box</a>&lt;K: <b>copy</b> + drop, V, B&gt;(<a href="table.md#0x1_table">table</a>: &<b>mut</b> <a href="table.md#0x1_table_Table">Table</a>&lt;K, V&gt;, key: K, val: <a href="table.md#0x1_table_Box">Box</a>&lt;V&gt;);
 </code></pre>
 
+
+
+</details>
+
+<details>
+<summary>Show all the functions that "add_box" calls</summary>
+
+
+![](img/table_add_box_forward_call_graph.svg)
+
+
+</details>
+
+<details>
+<summary>Show all the functions that call "add_box"</summary>
+
+
+![](img/table_add_box_backward_call_graph.svg)
 
 
 </details>
@@ -410,6 +626,24 @@ Returns true iff <code><a href="table.md#0x1_table">table</a></code> contains an
 
 </details>
 
+<details>
+<summary>Show all the functions that "borrow_box" calls</summary>
+
+
+![](img/table_borrow_box_forward_call_graph.svg)
+
+
+</details>
+
+<details>
+<summary>Show all the functions that call "borrow_box"</summary>
+
+
+![](img/table_borrow_box_backward_call_graph.svg)
+
+
+</details>
+
 <a name="0x1_table_borrow_box_mut"></a>
 
 ## Function `borrow_box_mut`
@@ -428,6 +662,24 @@ Returns true iff <code><a href="table.md#0x1_table">table</a></code> contains an
 <pre><code><b>native</b> <b>fun</b> <a href="table.md#0x1_table_borrow_box_mut">borrow_box_mut</a>&lt;K: <b>copy</b> + drop, V, B&gt;(<a href="table.md#0x1_table">table</a>: &<b>mut</b> <a href="table.md#0x1_table_Table">Table</a>&lt;K, V&gt;, key: K): &<b>mut</b> <a href="table.md#0x1_table_Box">Box</a>&lt;V&gt;;
 </code></pre>
 
+
+
+</details>
+
+<details>
+<summary>Show all the functions that "borrow_box_mut" calls</summary>
+
+
+![](img/table_borrow_box_mut_forward_call_graph.svg)
+
+
+</details>
+
+<details>
+<summary>Show all the functions that call "borrow_box_mut"</summary>
+
+
+![](img/table_borrow_box_mut_backward_call_graph.svg)
 
 
 </details>
@@ -454,6 +706,24 @@ Returns true iff <code><a href="table.md#0x1_table">table</a></code> contains an
 
 </details>
 
+<details>
+<summary>Show all the functions that "contains_box" calls</summary>
+
+
+![](img/table_contains_box_forward_call_graph.svg)
+
+
+</details>
+
+<details>
+<summary>Show all the functions that call "contains_box"</summary>
+
+
+![](img/table_contains_box_backward_call_graph.svg)
+
+
+</details>
+
 <a name="0x1_table_remove_box"></a>
 
 ## Function `remove_box`
@@ -472,6 +742,24 @@ Returns true iff <code><a href="table.md#0x1_table">table</a></code> contains an
 <pre><code><b>native</b> <b>fun</b> <a href="table.md#0x1_table_remove_box">remove_box</a>&lt;K: <b>copy</b> + drop, V, B&gt;(<a href="table.md#0x1_table">table</a>: &<b>mut</b> <a href="table.md#0x1_table_Table">Table</a>&lt;K, V&gt;, key: K): <a href="table.md#0x1_table_Box">Box</a>&lt;V&gt;;
 </code></pre>
 
+
+
+</details>
+
+<details>
+<summary>Show all the functions that "remove_box" calls</summary>
+
+
+![](img/table_remove_box_forward_call_graph.svg)
+
+
+</details>
+
+<details>
+<summary>Show all the functions that call "remove_box"</summary>
+
+
+![](img/table_remove_box_backward_call_graph.svg)
 
 
 </details>
@@ -498,6 +786,24 @@ Returns true iff <code><a href="table.md#0x1_table">table</a></code> contains an
 
 </details>
 
+<details>
+<summary>Show all the functions that "destroy_empty_box" calls</summary>
+
+
+![](img/table_destroy_empty_box_forward_call_graph.svg)
+
+
+</details>
+
+<details>
+<summary>Show all the functions that call "destroy_empty_box"</summary>
+
+
+![](img/table_destroy_empty_box_backward_call_graph.svg)
+
+
+</details>
+
 <a name="0x1_table_drop_unchecked_box"></a>
 
 ## Function `drop_unchecked_box`
@@ -516,6 +822,24 @@ Returns true iff <code><a href="table.md#0x1_table">table</a></code> contains an
 <pre><code><b>native</b> <b>fun</b> <a href="table.md#0x1_table_drop_unchecked_box">drop_unchecked_box</a>&lt;K: <b>copy</b> + drop, V, B&gt;(<a href="table.md#0x1_table">table</a>: <a href="table.md#0x1_table_Table">Table</a>&lt;K, V&gt;);
 </code></pre>
 
+
+
+</details>
+
+<details>
+<summary>Show all the functions that "drop_unchecked_box" calls</summary>
+
+
+![](img/table_drop_unchecked_box_forward_call_graph.svg)
+
+
+</details>
+
+<details>
+<summary>Show all the functions that call "drop_unchecked_box"</summary>
+
+
+![](img/table_drop_unchecked_box_backward_call_graph.svg)
 
 
 </details>

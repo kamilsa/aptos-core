@@ -18,6 +18,24 @@ Standard math utilities missing in the Move Language.
 
 
 
+<details>
+<summary>Show all the modules that "math64" depends on directly or indirectly</summary>
+
+
+![](img/math64_forward_dep.svg)
+
+
+</details>
+
+<details>
+<summary>Show all the modules that depend on "math64" directly or indirectly</summary>
+
+
+![](img/math64_backward_dep.svg)
+
+
+</details>
+
 <a name="0x1_math64_max"></a>
 
 ## Function `max`
@@ -39,6 +57,24 @@ Return the largest of two numbers.
 }
 </code></pre>
 
+
+
+</details>
+
+<details>
+<summary>Show all the functions that "max" calls</summary>
+
+
+![](img/math64_max_forward_call_graph.svg)
+
+
+</details>
+
+<details>
+<summary>Show all the functions that call "max"</summary>
+
+
+![](img/math64_max_backward_call_graph.svg)
 
 
 </details>
@@ -68,6 +104,24 @@ Return the smallest of two numbers.
 
 </details>
 
+<details>
+<summary>Show all the functions that "min" calls</summary>
+
+
+![](img/math64_min_forward_call_graph.svg)
+
+
+</details>
+
+<details>
+<summary>Show all the functions that call "min"</summary>
+
+
+![](img/math64_min_backward_call_graph.svg)
+
+
+</details>
+
 <a name="0x1_math64_average"></a>
 
 ## Function `average`
@@ -93,6 +147,24 @@ Return the average of two.
 }
 </code></pre>
 
+
+
+</details>
+
+<details>
+<summary>Show all the functions that "average" calls</summary>
+
+
+![](img/math64_average_forward_call_graph.svg)
+
+
+</details>
+
+<details>
+<summary>Show all the functions that call "average"</summary>
+
+
+![](img/math64_average_backward_call_graph.svg)
 
 
 </details>
@@ -130,6 +202,24 @@ Return the value of n raised to power e
 }
 </code></pre>
 
+
+
+</details>
+
+<details>
+<summary>Show all the functions that "pow" calls</summary>
+
+
+![](img/math64_pow_forward_call_graph.svg)
+
+
+</details>
+
+<details>
+<summary>Show all the functions that call "pow"</summary>
+
+
+![](img/math64_pow_backward_call_graph.svg)
 
 
 </details>
