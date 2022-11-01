@@ -838,11 +838,6 @@ pub fn setup_environment(
     );
     debug!("Mempool started in {} ms", instant.elapsed().as_millis());
 
-    assert!(
-        !node_config.consensus.use_quorum_store,
-        "QuorumStore is not yet implemented"
-    );
-
     // StateSync should be instantiated and started before Consensus to avoid a cyclic dependency:
     // network provider -> consensus -> state synchronizer -> network provider.  This has resulted
     // in a deadlock as observed in GitHub issue #749.
