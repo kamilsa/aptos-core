@@ -56,6 +56,12 @@ impl OnChainConsensusConfig {
             OnChainConsensusConfig::V1(config) => &config.proposer_election_type,
         }
     }
+
+    pub fn enable_quorum_store(&self) -> bool {
+        match &self {
+            OnChainConsensusConfig::V1(config) => config.enable_quorum_store,
+        }
+    }
 }
 
 /// This is used when on-chain config is not initialized.
@@ -90,6 +96,8 @@ pub struct ConsensusConfigV1 {
     pub exclude_round: u64,
     pub proposer_election_type: ProposerElectionType,
     pub max_failed_authors_to_store: usize,
+    // TODO: probably need a V2 for backwards compatibility?
+    pub enable_quorum_store: bool,
 }
 
 impl Default for ConsensusConfigV1 {
@@ -115,6 +123,7 @@ impl Default for ConsensusConfigV1 {
                     use_history_from_previous_epoch_max_count: 5,
                 }),
             ),
+            enable_quorum_store: false,
         }
     }
 }
